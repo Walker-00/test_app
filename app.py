@@ -1,5 +1,5 @@
 import streamlit as st
-import cv4.5.5.62
+import cv2
 import numpy as np
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
