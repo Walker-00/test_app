@@ -15,6 +15,8 @@ def main():
     sy = st.sidebar.slider('Pick sigmaY value for Gaussian', 0, 10)
     st.sidebar.markdown('threshold1 value')
     t1 = st.sidebar.text_input('Enter threshold1 value:')
+    if st.sidebar.button("Classify", key="classify"):
+        st.title("TestClick:")
 
 if __name__ == '__main__':
     main()
